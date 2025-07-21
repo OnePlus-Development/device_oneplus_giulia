@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     coreApp="true"
-    package="com.android.wifi.resources.overlay.oneplus13r">
+    package="com.android.wifi.resources.overlay.oneplusace5">
 
     <overlay
         android:isStatic="true"
         android:priority="700"
         android:targetPackage="com.android.wifi.resources"
-        android:targetName="WifiCustomization" />
+        android:targetName="WifiCustomization"
+        android:requiredSystemPropertyName="ro.boot.prjname"
+        android:requiredSystemPropertyValue="23851" />
 </manifest>
