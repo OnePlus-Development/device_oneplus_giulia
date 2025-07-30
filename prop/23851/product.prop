@@ -2,3 +2,5 @@ ro.product.product.device=OP5D2BL1
 ro.product.product.model=PKG110
 ro.product.product.name=PKG110
 ro.vendor.oplus.regionmark=CN
+bluetooth.device.default_name=OnePlus Ace 5
+vendor.usb.product_string=OnePlus Ace 5
