@@ -1,5 +1,5 @@
 # Clone common trees
-git clone --depth=1 https://github.com/OnePlus-Development/device_oneplus_sm8650-common.git -b bka device/oneplus/giulia
+git clone --depth=1 https://github.com/OnePlus-Development/device_oneplus_sm8650-common.git -b bka device/oneplus/sm8650-common
 git clone --depth=1 https://github.com/OnePlus-Development/vendor_oneplus_sm8650-common.git -b bka vendor/oneplus/sm8650-common
 
 # Clone vendor tree

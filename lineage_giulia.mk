@@ -14,6 +14,30 @@ $(call inherit-product, device/oneplus/giulia/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit some common device props
+TARGET_FACE_UNLOCK_SUPPORTED := true
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+
+# Project Matrixx Flags
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_WALLEFFECT := true
+TARGET_INCLUDE_STOCK_AICORE := true
+MATRIXX_BUILD_TYPE := Official
+TARGET_ENABLE_BLUR := true
+
+# To Build Pixel launcher
+TARGET_INCLUDE_NEXUS := false
+
+# Gapps
+WITH_GMS := true
+TARGET_SUPPORTS_GSUITE := false
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := lineage_giulia
 PRODUCT_DEVICE := giulia
 PRODUCT_MANUFACTURER := OnePlus
