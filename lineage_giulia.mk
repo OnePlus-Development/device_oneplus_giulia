@@ -14,6 +14,12 @@ $(call inherit-product, device/oneplus/giulia/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit some common device props
+TARGET_FACE_UNLOCK_SUPPORTED := true
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+
 PRODUCT_NAME := lineage_giulia
 PRODUCT_DEVICE := giulia
 PRODUCT_MANUFACTURER := OnePlus
