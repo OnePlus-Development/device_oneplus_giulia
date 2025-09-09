@@ -43,14 +43,6 @@ PRODUCT_PACKAGES += \
     OPlusWifiResTarget \
     OPlusWifiResTargetCN
 
-# Properties
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prop/23851/product.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/23851/build.default.prop \
-    $(LOCAL_PATH)/prop/23867/EU.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/23867/build.EU.prop \
-    $(LOCAL_PATH)/prop/23867/IN.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/23867/build.IN.prop \
-    $(LOCAL_PATH)/prop/23867/NA.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/23867/build.NA.prop \
-    $(LOCAL_PATH)/prop/23867/product.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/23867/build.default.prop
-
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 35
 
